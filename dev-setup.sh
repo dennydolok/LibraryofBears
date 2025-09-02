@@ -3,7 +3,7 @@
 # Development setup script for Library of Bears
 
 echo "🐻 Library of Bears Development Setup"
-echo "=====================================
+echo "====================================="
 
 # Check if Go is installed
 if ! command -v go &> /dev/null; then
