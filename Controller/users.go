@@ -36,6 +36,7 @@ func Login(c echo.Context) error {
 			"message": "failed to generate token",
 		})
 	}
+	users.Password = ""
 	return c.JSON(http.StatusOK, map[string]interface{}{
 		"message": "success",
 		"user":    users,
